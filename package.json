@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.10",
+    "tailwindcss": "^3.3.5"
+  },
+  "scripts": {
+    "dev": "npx tailwindcss -i resources/css/laravel-gfm-docs.css -o dist/laravel-gfm-docs.css --watch",
+    "build": "npx tailwindcss -i resources/css/laravel-gfm-docs.css -o dist/laravel-gfm-docs.css --minify"
+  }
+}
