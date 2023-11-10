@@ -22,7 +22,11 @@ use AdriaanZon\LaravelGfmDocs\GfmDocs;
 GfmDocs::routes();
 ```
 
-To protect the middleware with authorization you can add it to a route group and apply middleware:
+<details>
+
+<summary>You can further customize this route using Laravel's routing facilities.</summary>
+
+To protect the route, you can add it to a route group and apply middleware:
 
 ```php
 use AdriaanZon\LaravelGfmDocs\GfmDocs;
@@ -39,6 +43,8 @@ use AdriaanZon\LaravelGfmDocs\GfmDocs;
 
 GfmDocs::routes('documentation');
 ```
+    
+</details>
 
 ### Configuration file
 
