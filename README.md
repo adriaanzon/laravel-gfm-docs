@@ -1,7 +1,7 @@
 # Laravel GFM Docs
 
 > [!WARNING]
-> This package has been abaondoned. As an alternative, you can use [guava/filament-knowledge-base](https://github.com/GuavaCZ/filament-knowledge-base). To achieve relative linking, you can set up a redirect:
+> This package has been abandoned. As an alternative, you can use [guava/filament-knowledge-base](https://github.com/GuavaCZ/filament-knowledge-base). To achieve similar relative linking functionality, you can set up a redirect:
 > ```php
 > Route::redirect('/knowledge-base/{path}.md', '/knowledge-base/{path}')->where('path', '.*');
 > ```
