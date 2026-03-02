@@ -1,5 +1,12 @@
 # Laravel GFM Docs
 
+> [!WARNING]
+> This package has been abaondoned. As an alternative, you can use [guava/filament-knowledge-base](https://github.com/GuavaCZ/filament-knowledge-base). To achieve relative linking, you can set up a redirect:
+> ```php
+> Route::redirect('/knowledge-base/{path}.md', '/knowledge-base/{path}')->where('path', '.*');
+> ```
+
+
 View the markdown documentation you write for GitHub, right in your Laravel app.
 
 - Uses [league/commonmark](https://commonmark.thephpleague.com) to render Github flavored markdown.
